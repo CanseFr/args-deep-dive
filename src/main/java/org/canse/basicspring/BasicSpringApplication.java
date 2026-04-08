@@ -1,5 +1,6 @@
 package org.canse.basicspring;
 
+import org.canse.basicspring.services.DoSomeThing;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -31,13 +32,18 @@ public class BasicSpringApplication implements ApplicationRunner {
 
 
     @Bean
-    CommandLineRunner readXls(ApplicationArguments applicationArguments) {
+    CommandLineRunner readXls(ApplicationArguments applicationArguments, DoSomeThing doSomeThing) {
         return args -> {
             System.out.println("----");
             System.out.println(applicationArguments.getOptionValues("file.format"));
             System.out.println("----");
             System.out.println(applicationArguments.getOptionValues("file.path"));
             System.out.println("----");
+            System.out.println("----");
+            doSomeThing.printName();
+            doSomeThing.createUser(true);
+            System.out.println("----");
+            doSomeThing.createUser(false);
         };
     }
 

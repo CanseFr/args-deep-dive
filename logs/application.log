@@ -1,0 +1,11 @@
+2026-04-07 15:22:16 INFO  [main] o.c.b.BasicSpringApplication - Starting BasicSpringApplication using Java 25-loom with PID 11316 (/Users/canse/Documents/Code/basic-spring/basic-spring/target/classes started by canse in /Users/canse/Documents/Code/basic-spring/basic-spring)
+2026-04-07 15:22:16 INFO  [main] o.c.b.BasicSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 15:22:17 INFO  [main] o.c.b.BasicSpringApplication - Started BasicSpringApplication in 1.364 seconds (process running for 1.795)
+2026-04-07 15:22:17 INFO  [main] o.c.basicspring.services.DoSomeThing - Info générale
+2026-04-07 15:22:17 WARN  [main] o.c.basicspring.services.DoSomeThing - Attention
+2026-04-07 15:22:17 ERROR [main] o.c.basicspring.services.DoSomeThing - Erreur
+2026-04-07 15:22:17 INFO  [main] o.c.basicspring.services.DoSomeThing - Création de l'utilisateur: canse
+2026-04-07 15:22:17 ERROR [main] o.c.basicspring.services.DoSomeThing - Erreur lors de la création 
+2026-04-07 15:22:17 INFO  [main] o.c.basicspring.services.DoSomeThing - Création terminé
+2026-04-07 15:22:17 INFO  [main] o.c.basicspring.services.DoSomeThing - Création de l'utilisateur: canse
+2026-04-07 15:22:17 INFO  [main] o.c.basicspring.services.DoSomeThing - Création terminé
